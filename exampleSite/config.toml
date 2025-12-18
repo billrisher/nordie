@@ -2,10 +2,8 @@ baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Nordie"
 theme="nordie"
-copyright = "© Athul"
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+copyright = "© Bylly"
+
 [params]
 	mode="auto"
 	useCDN=false
@@ -15,16 +13,6 @@ pygmentscodefencesguesssyntax = true
 name = "GitHub"
 icon = "github"
 url = "https://github.com/billrisher/nordie"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
 
 [[menu.main]]
 name = "Home"
