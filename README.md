@@ -1,14 +1,10 @@
-# Archie - Hugo theme
-Archie is a minimal and clean theme for hugo with a markdown-ish UI.
+# Nordie - Hugo theme
+Nordie is a minimal and clean theme for hugo with a markdown-ish UI.
 
-Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil)
-
-## Demo
-
-[Check the Demo](https://athul.github.io/archie/) hosted on GitHub Pages :smile: . You can find the source code to that in the `site` branch of this repository
+Forked from [Archie Theme](https://github.com/athul/archie)
 
 ![](/images/theme.png)
-![](/images/archie-dark.png)
+![](/images/nordie-dark.png)
 ## Feature
 - Google Analytics Script
 - Callouts
@@ -25,9 +21,9 @@ In your Hugo website directory, create a new folder named theme and clone the re
 ```bash
 $ mkdir themes
 $ cd themes
-$ git clone https://github.com/athul/archie.git
+$ git clone https://github.com/billrisher/nordie.git
 ```
-Edit the `config.toml` file with `theme="archie"`
+Edit the `config.toml` file with `theme="nordie"`
 For more information read the official [setup guide](https://gohugo.io/installation/) of Hugo.
 
 If you encounter any issues with Google Analytics, update Hugo to v0.125.0 or
@@ -48,9 +44,7 @@ toc: true/false (optional)
 ```
 
 ## Credits
-Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil) and Licensed under MIT License
-Inspired by design of blog.jse.li
-
+Forked from [Archie Theme](https://github.com/athul/archie) and Licensed under MIT License
 ----
 
 ## Config Options
@@ -108,10 +102,10 @@ This include the ability to set your own callout emoji, title, and css style ele
 ## Config of the Demo Site
 
 ```toml
-baseURL = "https://athul.github.io/archie/"
+baseURL = "https://billrisher.github.io/nordie/"
 languageCode = "en-us"
-title = "Archie"
-theme="archie"
+title = "Nordie"
+theme="nordie"
 copyright = "© Athul"
 # Code Highlight
 pygmentsstyle = "monokai"
@@ -126,7 +120,7 @@ disqusShortname = "yourDisqusShortname"
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/billrisher/nordie)"
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
 
@@ -135,7 +129,7 @@ disqusShortname = "yourDisqusShortname"
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/billrisher/nordie"
 
 [[params.social]]
 name = "Twitter"
@@ -171,6 +165,4 @@ weight = 4
 ```
 ---
 
-If you liked my work please consider supporting me on [BuymeACoffee](https://www.buymeacoffee.com/athulca)
-
-<a href="https://www.buymeacoffee.com/athulca" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="41" width="174" ></a>
+ -->
