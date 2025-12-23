@@ -32,7 +32,7 @@
     --border-radius: 5px;
     --font-size-base: 15px;
     --line-height-base: 1.6;
-    --line-height-content: 1.5;
+    --line-height-content: 1.8;
 }
 /* Reset and base styles */
 *,
@@ -94,14 +94,14 @@ p {
     line-height: var(--line-height-content, 1.5);
     /* Fallback for older browsers */
     margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
-@supports (margin-block: 0.5em) {
+@supports (margin-block: 2em) {
     p {
         margin-top: unset;
         margin-bottom: unset;
-        margin-block: 0.5em;
+        margin-block: 2em;
     }
 }
 
@@ -177,6 +177,7 @@ ul {
 
 ul li {
     text-indent: -2ch;
+    padding-block: 0.25em;
 }
 
 ul > li::before {
